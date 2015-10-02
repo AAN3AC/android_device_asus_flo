@@ -14,13 +14,13 @@
     <ctl name="LINEOUT5 Volume" value="12" />
     <ctl name="HPHL Volume" value="9" />
     <ctl name="HPHR Volume" value="9" />
-    <ctl name="RX1 Digital Volume" value="84" />
-    <ctl name="RX2 Digital Volume" value="84" />
-    <ctl name="RX3 Digital Volume" value="84" />
-    <ctl name="RX4 Digital Volume" value="84" />
-    <ctl name="RX5 Digital Volume" value="84" />
-    <ctl name="RX6 Digital Volume" value="84" />
-    <ctl name="RX7 Digital Volume" value="84" />
+    <ctl name="RX1 Digital Volume" value="94" />
+    <ctl name="RX2 Digital Volume" value="94" />
+    <ctl name="RX3 Digital Volume" value="94" />
+    <ctl name="RX4 Digital Volume" value="94" />
+    <ctl name="RX5 Digital Volume" value="94" />
+    <ctl name="RX6 Digital Volume" value="94" />
+    <ctl name="RX7 Digital Volume" value="94" />
     <ctl name="RX3 HPF Switch" value="1" />
     <ctl name="RX4 HPF Switch" value="1" />
     <ctl name="RX3 HPF cut off" value="MIN_3DB_4Hz" />
@@ -31,16 +31,16 @@
     <ctl name="ADC4 Volume" value="3" />
     <ctl name="ADC5 Volume" value="3" />
     <ctl name="ADC6 Volume" value="3" />
-    <ctl name="DEC1 Volume" value="84" />
-    <ctl name="DEC2 Volume" value="84" />
-    <ctl name="DEC3 Volume" value="84" />
-    <ctl name="DEC4 Volume" value="84" />
-    <ctl name="DEC5 Volume" value="84" />
-    <ctl name="DEC6 Volume" value="84" />
-    <ctl name="DEC7 Volume" value="84" />
-    <ctl name="DEC8 Volume" value="84" />
-    <ctl name="DEC9 Volume" value="84" />
-    <ctl name="DEC10 Volume" value="84" />
+    <ctl name="DEC1 Volume" value="94" />
+    <ctl name="DEC2 Volume" value="94" />
+    <ctl name="DEC3 Volume" value="94" />
+    <ctl name="DEC4 Volume" value="94" />
+    <ctl name="DEC5 Volume" value="94" />
+    <ctl name="DEC6 Volume" value="94" />
+    <ctl name="DEC7 Volume" value="94" />
+    <ctl name="DEC8 Volume" value="94" />
+    <ctl name="DEC9 Volume" value="94" />
+    <ctl name="DEC10 Volume" value="94" />
     <ctl name="MICBIAS1 CAPLESS Switch" value="1" />
     <ctl name="MICBIAS2 CAPLESS Switch" value="0" />
     <ctl name="MICBIAS3 CAPLESS Switch" value="0" />
