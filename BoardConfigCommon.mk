@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH := arm
@@ -123,5 +121,9 @@ BOARD_SEPOLICY_DIRS += device/asus/flo/sepolicy
 
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
+
+# CM Hardware
+BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS += hardware/cyanogen
 
 -include vendor/asus/flo/BoardConfigVendor.mk
