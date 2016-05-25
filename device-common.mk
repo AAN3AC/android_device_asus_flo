@@ -36,12 +36,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-        LiveWallpapers \
-        LiveWallpapersPicker \
-        librs_jni
-
 PRODUCT_COPY_FILES += \
 	device/asus/flo/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
 	device/asus/flo/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
@@ -147,14 +141,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
 PRODUCT_PACKAGES += \
-	librs_jni \
-	com.android.future.usb.accessory
-
-# Filesystem management tools
-PRODUCT_PACKAGES += \
-	e2fsck
-
-PRODUCT_PACKAGES += \
 	libgenlock \
 	liboverlay \
 	hwcomposer.msm8960 \
@@ -209,6 +195,10 @@ PRODUCT_PACKAGES += \
 	libstagefrighthw \
 	libc2dcolorconvert
 
+# Gello
+PRODUCT_PACKAGES += \
+	Gello
+
 # GPS
 PRODUCT_PACKAGES += \
         libloc_adapter \
@@ -237,8 +227,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	drm.service.enabled=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	wifi.interface=wlan0 \
-	wifi.supplicant_scan_interval=15
+	wifi.interface=wlan0
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -299,8 +288,6 @@ PRODUCT_PACKAGES +=  libstlport
 # Camera
 PRODUCT_PACKAGES += \
     Snap
-
-PRODUCT_LOCALES := en_US es_US de_DE zh_CN
 
 $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, hardware/qcom/msm8960/msm8960.mk)
